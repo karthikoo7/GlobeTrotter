@@ -1,1 +1,1 @@
-# major_project
+# Globetrotter - Travel & Vacation Rental
