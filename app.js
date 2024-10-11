@@ -83,7 +83,7 @@ app.use((req,res,next)=>{ //provide access in ejs templates removing need for co
 })
 
 app.get("/", (req,res)=>{
-    res.send("I am Groot.");
+    res.redirect("/listings");
 })
 
 
