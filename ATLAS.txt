@@ -1,7 +1,2 @@
-For mongodb atlast used for storing db in cloud
 
-username:karthikeyansharma02636
-password:G5HVMn4knE0HpS5V
-
-mongodb+srv://karthikeyansharma02636:G5HVMn4knE0HpS5V@cluster0.4i4ok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
