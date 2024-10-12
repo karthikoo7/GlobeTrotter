@@ -26,7 +26,7 @@ const listing = <%- JSON.stringify( listing ) %> ; //parsing value of listing to
     </div>
     <% if(currUser && currUser.equals(listing.owner._id)){ %>
     <div class="btns mb-3">
-        <a href="http://localhost:8080/listings/<%= listing._id %>/edit" class="btn btn-success col-1 offset-3"> Edit</a>
+        <a href="/listings/<%= listing._id %>/edit" class="btn btn-success col-1 offset-3"> Edit</a>
 
         <form method="post", action="/listings/<%= listing._id %>?_method=DELETE">
             <button class="btn btn-dark offset-5">Delete</button> <br>
